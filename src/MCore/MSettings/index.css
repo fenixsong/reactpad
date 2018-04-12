@@ -1,0 +1,9 @@
+.msettings-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 40%;
+  min-height: 50vh;
+  background: white;
+  border: 1px blue solid;
+}
