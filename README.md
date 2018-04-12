@@ -1,3 +1,24 @@
+# Reactpad
+
+I'm having a lot of success writing custom firmware for the Launchpad Pro in C, but sometimes I just want to try other options faster with some of the flexibility of javascript, and this offers a great way for the public to try out "custom firmwares" without changing the firmware... so this project was born.
+Inspired by the Web MIDI API, and the fact that on some browsers (Chrome especially, maybe more now) can talk to midi devices... It was time to make this resource and share it with the world.
+
+You will have to allow the browser to communicate with MIDI device. It should pop up a small permission box.
+
+Please Note: No custom firmware needed on your Launchpad Pro! Use Factory provided firmware. :)
+Just plug in the LPP into a computer (Android Tablet should work too but this is untested) via USB
+Then hold SETUP on LPP and the Orange button on top row = Programmer Mode
+This works best with a multi-timbral synth with midi channels 1 thru 8 set to melodic instruments or percussion. Sky is the limit! However the samples are in their infancy. FORK THIS! and build more!
+On launchpad, set midi channel to 15 (or anything above 8) for better results.
+Otherwise midi channel 1 will get garbage notes from the default firmware
+Hold SETUP and hit one of the BOTTOM RIGHT Blue Buttons
+
+[Demo it at Fenixsong.com](http://fenixsong.com/reactpad)
+
+Also, please note: I put a good deal of time getting in ALL the SYSEX that handles Light Activation on the Launchpad in here, so this is a great resource on how control that. Plus the start of a framework is here for communicating NOTE events and CC events to the LPP or Any Midi Device!
+
+If you'd like to know more about the [Novation Launchpad Pro, go here.](https://global.novationmusic.com/launch/launchpad-pro) I do not work for Novation, I'm just an enthusiast.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
