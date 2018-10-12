@@ -13,8 +13,6 @@ On launchpad, set midi channel to 15 (or anything above 8) for better results.
 Otherwise midi channel 1 will get garbage notes from the default firmware
 Hold SETUP and hit one of the BOTTOM RIGHT Blue Buttons
 
-[Demo it at Fenixsong.com](http://fenixsong.com/reactpad)
-
 Also, please note: I put a good deal of time getting in ALL the SYSEX that handles Light Activation on the Launchpad in here, so this is a great resource on how control that. Plus the start of a framework is here for communicating NOTE events and CC events to the LPP or Any Midi Device!
 
 If you'd like to know more about the [Novation Launchpad Pro, go here.](https://global.novationmusic.com/launch/launchpad-pro) I do not work for Novation, I'm just an enthusiast.
